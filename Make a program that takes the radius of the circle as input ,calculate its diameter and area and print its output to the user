@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int r=sc.nextInt();
+        double area,diameter;
+        area=3.14*r*r;
+        diameter=2*r;
+        System.out.println(diameter);
+        System.out.println(area);
+    }
+}
